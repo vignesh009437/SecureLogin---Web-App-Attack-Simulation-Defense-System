@@ -67,9 +67,6 @@ This is the part where you explain to evaluators: "This is what an unprotected w
 - Export `security.log` into a simple dashboard (Flask route that reads and displays recent events)
 - Run OWASP ZAP against both apps and include the scan report comparison in your project report
 - Add CSRF protection with `flask-wtf`
-
-## How to present this in your resume
-> "Built and demonstrated a web application security project showing common attack vectors (SQL Injection, XSS, brute-force) and implemented matching defenses (WAF-style input filtering, parameterized queries, rate limiting, audit logging) using Python/Flask."
-
+  
 ## Safety note
 Only run these attack scripts against your own local app. Never point `attack_demo.py` at a server you don't own or have permission to test.
